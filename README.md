@@ -1,9 +1,7 @@
 introduce
 
-this is flash air ane lib  for chartboost ad , ios and android full function  support include Interstitial ad and MoreAppPage 
-
-======================================
-
+=================flash air ane lib  for chartboost ad , ios and android full function  support include Interstitial ad and MoreAppPage 
+================
 reqiered :
 
 air sdk 3.5 or later
@@ -15,10 +13,11 @@ usage:
 
 1. add chartboost.ane to your flex air project
 
-2.  add ane id in your xxx-app.xml  <extensionID>so.cuo.ane.Chartboost</extensionID>
+2.  add ane id in your xxx-app.xml  
+<extensionID>so.cuo.ane.Chartboost</extensionID>
  
-   for android, need add WRITE_EXTERNAL_STORAGE,INTERNET,ACCESS_WIFI_STATE,ACCESS_NETWORK_STATE permission
-
+for android, need add 
+WRITE_EXTERNAL_STORAGE,INTERNET,ACCESS_WIFI_STATE,ACCESS_NETWORK_STATE 
 3. add code 
 	
 // app id and sign id created in chartboost.com site
@@ -32,11 +31,11 @@ AirChartboost.getInstance().showInterstitial();
 	
 AirChartboost.getInstance().showMoreAppPage();
 
-4. for more usage, see the demo project code
+4.for more usage, see the demo project code
 
 
 
-description:
+--------------description:
 
 this lib is very easy to use ,just need one or two line code,
 
