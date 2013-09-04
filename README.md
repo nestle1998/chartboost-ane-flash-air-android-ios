@@ -1,6 +1,6 @@
 introduce
 
-=================flash air ane lib  for chartboost ad , ios and android full function  support include Interstitial ad and MoreAppPage 
+flash air ane lib  for chartboost ad , ios and android full function  support include Interstitial ad and MoreAppPage 
 ================
 reqiered :
 
@@ -35,7 +35,7 @@ AirChartboost.getInstance().showMoreAppPage();
 
 
 
---------------description:
+---------description:
 
 this lib is very easy to use ,just need one or two line code,
 
