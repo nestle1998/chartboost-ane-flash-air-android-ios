@@ -1,5 +1,3 @@
-introduce
-
 flash air ane lib  for chartboost ad , ios and android full function  support include Interstitial ad and MoreAppPage 
 ================
 reqiered :
@@ -18,7 +16,8 @@ usage:
  
 for android, need add 
 WRITE_EXTERNAL_STORAGE,INTERNET,ACCESS_WIFI_STATE,ACCESS_NETWORK_STATE 
-3. add code 
+
+3.add code 
 	
 // app id and sign id created in chartboost.com site
 
