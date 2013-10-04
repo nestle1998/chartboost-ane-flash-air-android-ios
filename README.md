@@ -4,12 +4,13 @@ reqiered :
 
 air sdk 3.5 or later
 
-ane is build base on Chartboost SDK ios 3.2.1 ,android 3.1.5
+ane is build base on Chartboost SDK ios 3.1.0 ,android 3.3.0
 
 ---------
 usage:
 
-1. add chartboost.ane to your flex air project
+
+=======1. add chartboost.ane to your flex air project
 
 2.  add ane id in your xxx-app.xml  
 <extensionID>so.cuo.ane.Chartboost</extensionID>
@@ -36,6 +37,7 @@ AirChartboost.getInstance().showMoreAppPage();
 
 ---------description:
 
+=======
 this lib is very easy to use ,just need one or two line code,
 
 and it is full function ,chartboost Interstitial ad and more app page is support ,
