@@ -4,7 +4,7 @@ reqiered :
 
 air sdk 3.5 or later
 
-ane is build base on Chartboost SDK ios 3.1.0 ,android 3.3.0
+ane is build base on Chartboost SDK ios 3.3.0 ,android 3.3.0
 
 ---------
 usage:
@@ -13,7 +13,7 @@ usage:
 1. add chartboost.ane to your flex air project
 
 2.  add ane id in your xxx-app.xml  
-<extensionID>so.cuo.ane.Chartboost</extensionID>
+<extensionID>so.cuo.platform.chartboost</extensionID>
  
 for android, need add 
 WRITE_EXTERNAL_STORAGE,INTERNET,ACCESS_WIFI_STATE,ACCESS_NETWORK_STATE 
@@ -21,15 +21,15 @@ WRITE_EXTERNAL_STORAGE,INTERNET,ACCESS_WIFI_STATE,ACCESS_NETWORK_STATE
 3.add code 
 	
 // app id and sign id created in chartboost.com site
-
-AirChartboost.getInstance().startSession("4f7b433509b602538043000002", "dd2d41b69ac01b80f44443f5b6cf06096d457f82bd");
+var chartboost= Chartboost.getInstance();
+chartboost.setInterstitialKeys("4f7b433509b602538043000002", "dd2d41b69ac01b80f44443f5b6cf06096d457f82bd");
 //then show chartboost Interstitial
-	
-AirChartboost.getInstance().showInterstitial(); 
+chartboost.cacheInterstitial();
+chartboost.showInterstitial();
 
 //or show chartboost more app page
 	
-AirChartboost.getInstance().showMoreAppPage();
+Chartboost.getInstance().showMoreAppPage();
 
 4.for more usage, see the demo project code
 
@@ -45,6 +45,7 @@ it work well on android and ios (ipad,iphone,ipad) air device,
 not support pc or web flash app
 
 this lib is develped by cuo(www.cuo.so/),
- used some code of FreshPlanet.com ,and thanks  FreshPlanet
 for 
 more info about chartboost ref to http://chartboost.com
+
+contact email:javaflashproject@gmail.com
