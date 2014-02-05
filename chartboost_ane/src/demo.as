@@ -8,8 +8,8 @@ package
 	import flash.text.TextField;
 	import flash.text.TextFormat;
 	
-	import so.cuo.platform.ad.AdEvent;
 	import so.cuo.platform.chartboost.Chartboost;
+	import so.cuo.platform.chartboost.ChartboostEvent;
 
 	public class demo extends Sprite
 	{
@@ -30,7 +30,7 @@ package
 			if (chartboost.supportDevice)
 			{
 				chartboost.setInterstitialKeys(this.appid, this.sign);
-				chartboost.addEventListener(AdEvent.onInterstitialReceive, onAdReceived);
+				chartboost.addEventListener(ChartboostEvent.onInterstitialReceive, onAdReceived);
 			}
 		}
 
@@ -79,7 +79,7 @@ package
 			trace(event.type);
 		}
 
-		protected function onAdReceived(event:AdEvent):void
+		protected function onAdReceived(event:ChartboostEvent):void
 		{
 			chartboost.showInterstitial();
 		}

@@ -4,7 +4,7 @@ reqiered :
 
 air sdk 3.5 or later
 
-ane is build base on Chartboost SDK ios 3.3.0 ,android 3.3.0
+ane is build base on Chartboost SDK ios 4.0 ,android 3.3.0
 
 ---------
 usage:
