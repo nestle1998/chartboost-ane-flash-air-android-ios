@@ -3,7 +3,9 @@ introduce
 this is flash air ane lib  for chartboost ad , ios and android full function  support
 
 include Interstitial ad and MoreAppPage 
+
 ======================================
+
 project home:https://code.google.com/p/chartboost-sdk/
 
 chartboost site: http://chartboost.com
