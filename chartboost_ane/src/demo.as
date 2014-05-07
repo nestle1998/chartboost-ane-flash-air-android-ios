@@ -8,6 +8,7 @@ package
 	import flash.text.TextField;
 	import flash.text.TextFormat;
 	
+	import so.cuo.platform.chartboost.CBLocation;
 	import so.cuo.platform.chartboost.Chartboost;
 	import so.cuo.platform.chartboost.ChartboostEvent;
 
@@ -72,11 +73,6 @@ package
 					}
 				}
 			}
-		}
-
-		protected function onBannerFail(event:Event):void
-		{
-			trace(event.type);
 		}
 
 		protected function onAdReceived(event:ChartboostEvent):void
