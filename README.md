@@ -11,7 +11,7 @@ ane is build base on Chartboost SDK ios 4.0.0 ,android 4.0.0<br/>
 1. add chartboost.ane to your flex air project<br/>
 2.  add ane id in your xxx-app.xml <br/>
 ```
- <extensionID>so.cuo.ane.Chartboost</extensionID>
+ <extensionID>so.cuo.platform.chartboost</extensionID>
  ```
 3.for android, need add permission
 ```
