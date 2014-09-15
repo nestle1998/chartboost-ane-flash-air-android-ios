@@ -1,7 +1,8 @@
 #introduce  chartboost ane for flash android and ios  air application or game
 this is flash air ane lib  for chartboost ad , ios and android full function  support<br/>
 include Interstitial ad and MoreAppPage <br/>
-project home:https://code.google.com/p/chartboost-sdk/<br/>
+project home:https://github.com/lilili87222/chartboost-ane-flash-air-android-ios/<br/>
+ane for chartboost 5:https://github.com/lilili87222/chartboost-ane
 chartboost site: http://chartboost.com<br/>
 reqiered :air sdk 4.0 or later<br/>
 ane is build base on Chartboost SDK ios 4.0.0 ,android 4.0.0<br/>
