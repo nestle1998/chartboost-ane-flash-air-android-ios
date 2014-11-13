@@ -14,8 +14,8 @@ package
 
 	public class demo extends Sprite
 	{
-		public var appid:String="51bdcf7616ba475450000005";
-		public var sign:String="28c18ae143999b71468de4a7b50eff51ce83fac0";
+		public var appid:String="your appid";
+		public var sign:String="your appid";
 		public var fullScreenButton:TextField=new TextField();
 		public var moreAppButton:TextField=new TextField();
 		private var format:TextFormat=new TextFormat(null, 38);
