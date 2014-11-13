@@ -24,7 +24,7 @@ ane is build base on Chartboost SDK ios 4.0.0 ,android 4.0.0<br/>
 
 4.add code 
 ```
-Chartboost.getInstance().setInterstitialKeys("4f7b433509b602538043000002", "dd2d41b69ac01b80f44443f5b6cf06096d457f82bd");// app id and sign id created in chartboost.com site
+Chartboost.getInstance().setInterstitialKeys("appid", "appsign");// app id and sign id created in chartboost.com site
 //then show chartboost Interstitial
 Chartboost.getInstance().showInterstitial(); 
 //or show chartboost more app page
