@@ -36,3 +36,9 @@ Chartboost.getInstance().showMoreApp();
 this lib is very easy to use ,just need one or two line code,<br/>
 and it is full function ,chartboost Interstitial ad and more app page is support ,and all event is support<br/>
 it work well on android and ios (ipad,iphone,ipad) air device,not support pc or web flash app<br/>
+
+
+if user like this lib,you can download and review our game <br/>
+https://itunes.apple.com/us/artist/phonegame/id553087275?mt=8 <br/>
+donate and download more ane  <br/>
+http://www.cuo.so/ane-list/index.html  <br/>
