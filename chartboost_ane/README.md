@@ -19,6 +19,13 @@ ane is build base on Chartboost SDK ios 4.0.0 ,android 4.0.0<br/>
 <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 <uses-permission android:name="android.permission.INTERNET"/>
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+ <application>
+			  	<activity android:name="com.chartboost.sdk.CBImpressionActivity"
+            	   android:excludeFromRecents="true"
+                   android:hardwareAccelerated="true"
+            	   android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+                   android:configChanges="keyboardHidden|orientation|screenSize"/>
+				</application>
 ```
 
 

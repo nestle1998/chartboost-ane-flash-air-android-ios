@@ -10,8 +10,7 @@ package
 
 	public class demo extends Sprite
 	{
-		public var appid:String="51bdcf7616ba475450000005";
-		public var sign:String="28c18ae143999b71468de4a7b50eff51ce83fac0";
+		
 		private var chartboost:Chartboost;
 		public static function isIOS():Boolean {
 			return Capabilities.manufacturer.indexOf("iOS") != -1;
@@ -21,25 +20,22 @@ package
 			super();
 			
 			stage.align=StageAlign.TOP_LEFT;
-//			stage.scaleMode=StageScaleMode.NO_SCALE;
 			initUI();
 			chartboost= Chartboost.getInstance();
 			if (chartboost.supportDevice)
 			{
 				if (isIOS()) {
-					chartboost.setChartboostKeys("4f21c409cd1cb2fb7000001b", "92e2de2fd7070327bdeb54c15a5295309c6fcd2d");
+					chartboost.setChartboostKeys("your  appid ", "your  app  sign");
 				}else{
-					chartboost.setChartboostKeys("4f7b433509b6025804000002", "dd2d41b69ac01b80f443f5b6cf06096d457f82bd");
+					chartboost.setChartboostKeys("appid ", "app sign");
 				}
-//				chartboost.setChartboostKeys(appid,sign);
 				chartboost.addEventListener(ChartboostEvent.onInterstitialReceive, onAdReceived);
 			}
 		}
-
+		
 		private function initUI():void
 		{
 			stage.align=StageAlign.TOP_LEFT;
-//			stage.scaleMode=StageScaleMode.NO_SCALE;
 			var ui:UI=new UI(onClick);
 			addChild(ui);
 			ui.addButton("more app", 200, 20);
