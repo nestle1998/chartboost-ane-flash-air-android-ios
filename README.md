@@ -55,7 +55,7 @@ Chartboost.getInstance().cacheRewardedVideo();
 Chartboost.getInstance().showRewardedVideo();
 ```
 
-7.for more usage, see the demo project code https://github.com/lilili87222/chartboost-ane-flash-air-android-ios/blob/master/chartboost_ane/src/demo.as
+7.for more usage, see the demo project code <br/>https://github.com/lilili87222/chartboost-ane-flash-air-android-ios/blob/master/chartboost_ane/src/demo.as
 
 
 ###description:
@@ -63,7 +63,7 @@ this lib is very easy to use ,just need one or two line code,<br/>
 and it is full function ,chartboost Interstitial ad and more app page is support ,and all event is support<br/>
 it work well on android and ios (ipad,iphone,ipad) air device,not support pc or web flash app<br/>
 
-related ane admob ane https://github.com/lilili87222/admob-for-flash
+related ane admob ane https://github.com/lilili87222/admob-for-flash<br/>
 if user like this lib,you can download and review our game <br/>
 https://itunes.apple.com/us/artist/phonegame/id553087275?mt=8 <br/>
 donate and download more ane  <br/>
@@ -71,6 +71,6 @@ http://www.cuo.so/ane-list/index.html  <br/>
 
 
 
-chartboost ane 20151101 changes<br/>
+#chartboost ane 20151101 changes<br/>
 1.update ios sdk and android sdk to 6.0<br/>
 2.fix no video and no more app page bug.<br/>
