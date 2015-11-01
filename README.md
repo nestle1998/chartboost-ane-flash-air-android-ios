@@ -6,6 +6,7 @@ chartboost site: http://chartboost.com<br/>
 reqiered :air sdk 17.0 or later<br/>
 ane is build base on Chartboost SDK ios 6.0.0 ,android 6.0.0<br/>
 
+
 #usage:
 1. add chartboost.ane to your flex air project<br/>
 2.  add ane id in your xxx-app.xml <br/>
@@ -28,16 +29,34 @@ ane is build base on Chartboost SDK ios 6.0.0 ,android 6.0.0<br/>
 ```
 
 
-4.add code 
+4.show  Interstitial 
 ```
-Chartboost.getInstance().setChartboostKeys("appid", "appsign");// app id and sign id created in chartboost.com site
+Chartboost.getInstance().setInterstitialKeys("appid", "appsign");// app id and sign 
+id created in chartboost.com site
+load Interstitial
 Chartboost.getInstance().cacheInterstitial();
-//then show chartboost Interstitial when Interstitial loaded
+//then show chartboost Interstitial after load success
 Chartboost.getInstance().showInterstitial(); 
-//or show chartboost more app page
+```
+
+5.show more app page
+```
+//load more app page 
+Chartboost.getInstance().cacheMoreApp();	
+// show chartboost more app page after load success
 Chartboost.getInstance().showMoreApp();
-```	
-5.for more usage, see the demo project code
+```
+
+6.show video ad
+```
+//load more app page 
+Chartboost.getInstance().cacheRewardedVideo();	
+// show chartboost video after load success
+Chartboost.getInstance().showRewardedVideo();
+```
+
+7.for more usage, see the demo project code https://github.com/lilili87222/chartboost-ane-flash-air-android-ios/blob/master/chartboost_ane/src/demo.as
+
 
 ###description:
 this lib is very easy to use ,just need one or two line code,<br/>
