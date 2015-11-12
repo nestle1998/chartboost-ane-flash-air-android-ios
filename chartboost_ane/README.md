@@ -1,11 +1,11 @@
 #introduce  chartboost ane for flash android and ios  air application or game
 this is flash air ane lib  for chartboost ad , ios and android full function  support<br/>
-include Interstitial ad and MoreAppPage <br/>
+include Interstitial ad ,video ad and  MoreAppPage <br/>
 project home:https://github.com/lilili87222/chartboost-ane-flash-air-android-ios/<br/>
-ane for chartboost 5:https://github.com/lilili87222/chartboost-ane<br/>
 chartboost site: http://chartboost.com<br/>
-reqiered :air sdk 4.0 or later<br/>
-ane is build base on Chartboost SDK ios 4.0.0 ,android 4.0.0<br/>
+reqiered :air sdk 17.0 or later<br/>
+ane is build base on Chartboost SDK ios 6.0.0 ,android 6.0.0<br/>
+
 
 #usage:
 1. add chartboost.ane to your flex air project<br/>
@@ -29,17 +29,48 @@ ane is build base on Chartboost SDK ios 4.0.0 ,android 4.0.0<br/>
 ```
 
 
-4.add code 
+4.show  Interstitial 
 ```
-Chartboost.getInstance().setInterstitialKeys("appid", "appsign");// app id and sign id created in chartboost.com site
-//then show chartboost Interstitial
+Chartboost.getInstance().setChartboostKeys("appid", "appsign");// app id and sign 
+id created in chartboost.com site
+load Interstitial
+Chartboost.getInstance().cacheInterstitial();
+//then show chartboost Interstitial after load success
 Chartboost.getInstance().showInterstitial(); 
-//or show chartboost more app page
+```
+
+5.show more app page
+```
+//load more app page 
+Chartboost.getInstance().cacheMoreApp();	
+// show chartboost more app page after load success
 Chartboost.getInstance().showMoreApp();
-```	
-5.for more usage, see the demo project code
+```
+
+6.show video ad
+```
+//load more app page 
+Chartboost.getInstance().cacheRewardedVideo();	
+// show chartboost video after load success
+Chartboost.getInstance().showRewardedVideo();
+```
+
+7.for more usage, see the demo project code <br/>https://github.com/lilili87222/chartboost-ane-flash-air-android-ios/blob/master/chartboost_ane/src/demo.as
+
 
 ###description:
 this lib is very easy to use ,just need one or two line code,<br/>
 and it is full function ,chartboost Interstitial ad and more app page is support ,and all event is support<br/>
 it work well on android and ios (ipad,iphone,ipad) air device,not support pc or web flash app<br/>
+
+related ane admob ane https://github.com/lilili87222/admob-for-flash<br/>
+if user like this lib,you can download and review our game <br/>
+https://itunes.apple.com/us/artist/phonegame/id553087275?mt=8 <br/>
+donate and download more ane  <br/>
+http://www.cuo.so/ane-list/index.html  <br/>
+
+
+
+#chartboost ane 20151101 changes<br/>
+1.update ios sdk and android sdk to 6.0<br/>
+2.fix no video and no more app page bug.<br/>
